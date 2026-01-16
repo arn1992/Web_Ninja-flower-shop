@@ -149,6 +149,13 @@ h3 {
     padding: calc(var(--spacing-unit) * 5) 0;
 }
 
+.about-us-description {
+    max-width: 800px;
+    margin: -2rem auto calc(var(--spacing-unit) * 3);
+    text-align: center;
+    line-height: 1.8;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
